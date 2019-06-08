@@ -3,6 +3,7 @@ import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
+import Landingpage from './components/Landingpage';
 
 
 
@@ -13,7 +14,7 @@ function App() {
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: '#EAAAA0',  fontFamily: "cursive"}} to="/">Ventura García</Link>}  scroll>
             <Navigation>
-            <Link to="/">Inicio</Link>
+            <Link to="/portafolio/">Inicio</Link>
             <Link to="/aboutme">About Me</Link>
             <Link to="/resume">Skills</Link>
             <Link to="/projects">Projects</Link>
@@ -22,7 +23,7 @@ function App() {
         </Header>
         <Drawer  className="drawer-color"  title={<Link style={{textDecoration: 'none', color: '#EAAAA0',  fontFamily: "cursive"}} to="/">Ventura García</Link>}>
             <Navigation>
-            <Link to="/">Inicio</Link>
+            <Link to="/portafolio/">Inicio</Link>
             <Link to="/aboutme">About Me</Link>
             <Link to="/resume">Skills</Link>          
             <Link to="/projects">Projects</Link>
@@ -31,6 +32,7 @@ function App() {
         </Drawer>
         <Content>
             <div className="page-content" />
+            
             <Main/>
         </Content>
     </Layout>
