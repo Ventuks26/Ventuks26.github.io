@@ -1,0 +1,102 @@
+body{
+  background: #EAAAA0;  
+  background: -webkit-linear-gradient(#EAAAA0, #EAAAA0);  
+  background: linear-gradient(#EAAAA0, #EAAAA0);
+}
+.header-color {
+  background: gray;  
+  background: -webkit-linear-gradient(gray, #919191);  
+  background: linear-gradient( gray, #919191); 
+}
+
+.landing-grid {
+  background: #EAAAA0; 
+  background: -webkit-linear-gradient(#EAAAA0, #EAAAA0); 
+  background: linear-gradient(#EAAAA0, #EAAAA0); 
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.foto-img {
+  height: 250px;
+  padding-top: 5em;
+  
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+ .social-links  a:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: #F09B8D;
+  color:#6A5F5D;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'cursive', sans-serif;
+  color: #6A5F5D;
+}
+
+.contact-grid p {
+  font-family: 'cursive', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted #6A5F5D;
+  width: 50%;
+  margin: auto;
+}
+
+.social-icons a:not(:last-child) {
+  margin-right: 30px;
+}
+
+.social-icons{
+  width: 50px;
+  height: 50px;
+  
+}
+
+
+.projects-grid {
+  background: #EAAAA0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#EAAAA0, #EAAAA0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#EAAAA0, #EAAAA0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+}
+
+.resume-right-col {
+  background: #27221F;
+  color: #EAAAA0;
+  padding: 2em;
+  
+  
+}
