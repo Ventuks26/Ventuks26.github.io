@@ -15,6 +15,13 @@ class Landingpage extends Component {
               />
 
             <div className="banner-text">
+              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em', fontFamily: 'cursive', color:'#6A5F5D', fontSize:"20px"}}>
+              Soy Ventura Front-End Developer egresada de Laboratoria. 
+               Me considero una persona creativa, innovadora y amigable. Me encanta la poesía, 
+               las matemáticas, trabajar en equipo  y mantener activo mi aprendizaje.
+               Ingresé al mundo tech por curiosidad, y me fascinó.
+
+              </p>
               <h1>Front-End Developer</h1>
 
             <hr/>

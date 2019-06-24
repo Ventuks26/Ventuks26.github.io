@@ -9,7 +9,7 @@ class Resume extends Component {
   render() {
     return(
       <div>
-        <Grid>
+        <Grid className="resume"> 
           
             
 
@@ -17,43 +17,40 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
             
               <hr style={{borderTop: '3px solid gray'}} />
-              <h2>Skills</h2>
+              <h2>Habilidades Técnicas</h2>
               <Skills
-                skill="javascript"
+                skill="JavaScript ES6"
                 progress={100}
                 />
                 <Skills
-                  skill="HTML/CSS"
+                  skill="HTML"
                   progress={80}
+                  />
+                  <Skills
+                  skill="CSS3"
+                  progress={80}
+                  />
+                  <Skills
+                  skill="Git"
+                  progress={80}
+                  />
+                  <Skills
+                  skill="Firebase"
+                  progress={70}
                   />
                   <Skills
                     skill="NodeJS"
                     progress={50}
                     />
                     <Skills
-                      skill="React"
-                      progress={25}
-                      /> <br></br>
-
-<hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
-              <Skills
-                skill="javascript"
-                progress={100}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={25}
-                      />
-          </Cell>
+                      skill="React.js"
+                      progress={30}
+                      /> 
+                      <Skills
+                      skill="React native"
+                      progress={30}
+                      /> 
+</Cell>
         </Grid>
       </div>
     )
