@@ -11,6 +11,8 @@ class Skills extends Component {
           </div>
         </Cell>
       </Grid>
+
+      
     )
   }
 }

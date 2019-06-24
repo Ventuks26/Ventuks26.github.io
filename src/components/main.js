@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
 import Landingpage from './Landingpage';
-import Aboutme from './Aboutme';
 import Projects from './Projects';
 import Contact from './Contact';
 import Resume from './Resume';
@@ -12,7 +11,6 @@ const Main =() =>(
 <Switch>
     <Route path="/portafolio/" exact component={Landingpage} />
     <Route path="/resume" component={Resume} />
-    <Route path="/aboutme" component={Aboutme} />
     <Route path="/projects" component={Projects} />
     <Route path="/contact" component={Contact} />
 </Switch>
