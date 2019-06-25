@@ -7,7 +7,7 @@ class Contact extends Component {
     return(
       <div className="contact-body ">
         <Grid className="contact-grid">
-          <Cell col={6}>
+          <Cell col={6} >
             <h2>Ventura García</h2>
             <img
               src="https://i.postimg.cc/Df5sfLG0/2019-05-31-09-40-52-615.jpg"
