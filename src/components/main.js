@@ -9,7 +9,7 @@ import Resume from './Resume';
 const Main =() =>(
    
 <Switch>
-    <Route path="/portafolio/" exact component={Landingpage} />
+    <Route path="/" exact component={Landingpage} />
     <Route path="/resume" component={Resume} />
     <Route path="/projects" component={Projects} />
     <Route path="/contact" component={Contact} />
