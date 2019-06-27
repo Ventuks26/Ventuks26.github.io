@@ -12,7 +12,7 @@ function App() {
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: '#EAAAA0',  fontFamily: "cursive"}} to="/">Ventura García</Link>}  scroll>
             <Navigation>
-            <Link to="/portafolio/">Acerca de mí</Link>           
+            <Link to="/">Acerca de mí</Link>           
             <Link to="/resume">Habilidades</Link>
             <Link to="/projects">Proyectos</Link>
             <Link to="/contact">Contacto</Link>
@@ -20,7 +20,7 @@ function App() {
         </Header>
         <Drawer  className="drawer-color"  title={<Link style={{textDecoration: 'none', color: '#EAAAA0',  fontFamily: "cursive"}} to="/">Ventura García</Link>}>
             <Navigation>
-            <Link to="/portafolio/">Acerca de mí</Link>           
+            <Link to="/">Acerca de mí</Link>           
             <Link to="/resume">Habilidades</Link>          
             <Link to="/projects">Proyectos</Link>
             <Link to="/contact">Contacto</Link>
