@@ -1,52 +1,60 @@
-import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-
+import React, { Component } from "react";
+import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 
 class Contact extends Component {
   render() {
-    return(
+    return (
       <div className="contact-body ">
         <Grid className="contact-grid">
-          <Cell col={6} >
-            <h2>Ventura García</h2>
-            <img
-              src="https://i.postimg.cc/Df5sfLG0/2019-05-31-09-40-52-615.jpg"
-              alt="foto"
-              style={{height: '250px', borderRadius:'150px'}}
-               />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em', fontFamily: 'cursive', color:'#6A5F5D'}}>Creativa, innovadora y amigable. Me encanta la poesía, las matemáticas y mantener activo mi aprendizaje. Ingresé al mundo tech por curiosidad, y me fascinó. </p>
-          </Cell>
           <Cell col={6}>
-            <h2>Trabajemos juntos</h2>
-            <hr/>
-            <div className="contact-list">
-              <List>
-                <ListItem >
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'cursive', color:'#6A5F5D'}} >
-                  <img src="https://i.postimg.cc/htX31Sn8/whatsapp-3.png" alt="Whatsapp icono"/>
-                    (044) 33 11 64 37 94
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'cursive', color:'#6A5F5D'}}>
-                  <img src="https://i.postimg.cc/7L7sjmff/email-3.png" alt="Email icono" />
-                    mateventura5@gmail.com
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent  className="social-icons">
-                  <a href="https://www.linkedin.com/in/venturagarc%C3%ADa/" ><img src="https://i.postimg.cc/66D7pc39/linkedin-logo.png" alt="linkedin icono"
-                  className="social-icons" /></a>
-                   <a href="https://github.com/Ventuks26" ><img src="https://i.postimg.cc/VkhpxJgH/github-signo.png" alt="Github icono"
-                  className="social-icons" /> </a>
-                  </ListItemContent>
-                </ListItem>
-              </List>
-            </div>
+            <h1>Ventura García</h1>
+            <img
+              src="https://i.postimg.cc/NjfCrd0s/ventur.jpg"
+              alt="foto"
+              className="imgContat"
+            />
+          </Cell>
+          <Cell className="contact-box" col={6}>
+            <p
+              style={{
+                width: "75%",
+                margin: "auto",
+                paddingTop: ".5em",
+                fontFamily: "Lato",
+                color: "#2d2928"
+              }}
+            >
+              Me gustan los retos, desafiárdome a mi misma para aprender y
+              crecer.{" "}
+            </p>
+            {/* <h4>
+              Si estás interesado en trabajar juntos, no dudes en escribirme.
+            </h4> */}
           </Cell>
         </Grid>
+
+        <div className="contact-list">
+          <List>
+            <ListItem>
+              <ListItemContent className="social-icons">
+              <a className="contactMail" style={{ color: "#151415" }}>
+                <i class="fas fa-envelope fa-lg" /> mateventura5@gmail.com
+              </a>
+                <a href="https://www.linkedin.com/in/venturagarc%C3%ADa/">
+                  <i
+                    class="fab fa-linkedin fa-3x"
+                    style={{ color: "#151415" }}
+                  />
+                </a>
+                <a href="https://github.com/Ventuks26">
+                  <i class="fab fa-github fa-3x" style={{ color: "#151415" }} />
+                </a>
+              </ListItemContent>
+            </ListItem>
+          </List>
+        </div>
       </div>
-    )
+    );
   }
 }
 export default Contact;
