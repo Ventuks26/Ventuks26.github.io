@@ -1,5 +1,6 @@
 import React,  {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
+import '../style/StyleLagingpage.css';
 
 
 class Landingpage extends Component {
@@ -30,18 +31,18 @@ class Landingpage extends Component {
 
           <p className="tech">HTML/CSS | Bootstrap | JavaScript | React | Github/git | NodeJS | Firebase  </p>
 
-        <div className="social-links">
+        {/* <div className="social-links">
 
       
         <a href="https://www.linkedin.com/in/venturagarc%C3%ADa/">
-                    <i class="fab fa-linkedin fa-3x" style={{color:'#151415'}}></i>
+                    <i class="fab fa-linkedin fa-2x" style={{color:'#151415'}}></i>
                     </a>
 
          
           <a  href="https://github.com/Ventuks26">
-                    <i class="fab fa-github fa-3x" style={{color:'#151415'}}></i>
+                    <i class="fab fa-github fa-2x" style={{color:'#151415'}}></i>
                     </a>
-        </div>
+        </div> */}
             </div>
           </Cell>
         </Grid>

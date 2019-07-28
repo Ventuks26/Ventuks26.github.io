@@ -1,0 +1,111 @@
+.technicalSkills {
+  display: flex;
+  justify-content: center;
+}
+.iconTechnical {
+  color: #2d2928;
+  margin-inline-end: 1em;
+  margin-block-end: 0.3em;
+}
+
+.technicalBox {
+  margin-top: 2%;
+}
+
+.titleTech {
+  margin-top: 10%;
+  font-family: "Lato", sans-serif;
+  color: #2d2928;
+}
+
+@media only screen and (max-width: 320px) {
+  .technicalSkills {
+    display: flex;
+    justify-content: center;
+  }
+  .iconTechnical {
+    margin-inline-end: 0.1em;
+    margin-block-end: 0.1em;
+  }
+
+  .technicalBox {
+    margin-top: 2%;
+  }
+
+  .titleTech {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  .technicalSkills {
+    display: flex;
+    justify-content: center;
+  }
+  .iconTechnical {
+    margin-inline-end: 0.1em;
+    margin-block-end: 0.1em;
+  }
+
+  .technicalBox {
+    margin-top: 2%;
+  }
+
+  .titleTech {
+    margin-top: 20%;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .technicalSkills {
+    display: flex;
+    justify-content: center;
+  }
+  .iconTechnical {
+    margin-inline-end: 0.5em;
+    margin-block-end: 0.5em;
+  }
+
+  .technicalBox {
+    margin-top: 2%;
+  }
+
+  .titleTech {
+    margin-top: 20%;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .technicalSkills {
+    display: flex;
+    justify-content: center;
+  }
+  .iconTechnical {
+    margin-inline-end: 1em;
+    margin-block-end: 0.3em;
+  }
+
+  .technicalBox {
+    margin-top: 2%;
+  }
+
+  .titleTech {
+    margin-top: 20%;
+  }
+}
+@media only screen and (max-width: 1366px) and (min-width: 1024px) {
+  .technicalSkills {
+    display: flex;
+    justify-content: center;
+  }
+  .iconTechnical {
+    margin-inline-end: 1em;
+    margin-block-end: 0.3em;
+  }
+
+  .technicalBox {
+    margin-top: 2%;
+  }
+
+  .titleTech {
+    margin-top: 10%;
+  }
+}

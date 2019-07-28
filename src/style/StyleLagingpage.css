@@ -1,0 +1,184 @@
+.landing-grid {
+  background: #fbecea;
+  background: -webkit-linear-gradient(#fbecea #fbecea);
+  background: linear-gradient(#fbecea, #fbecea);
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.foto-img {
+  height: 250px;
+  padding-top: 5em;
+}
+.textAboutMe {
+  width: 75%;
+  margin: auto;
+  top: 1em;
+  font-family: "Scope One", serif;
+
+  color: #2d2928;
+  font-size: 20px;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.social-links a:not(:last-child) {
+  margin-right: 30px;
+}
+
+.frontEnd {
+  font-family: "Lato", sans-serif;
+}
+
+.tech {
+  font-family: "Lato", sans-serif;
+}
+
+@media only screen and (max-width: 320px) {
+  .landing-grid {
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .foto-img {
+    height: 100px;
+    padding-top: 0;
+  }
+
+  .textAboutMe {
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-size: 1em;
+  }
+
+  .frontEnd {
+    font-size: 1em;
+  }
+
+
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  .landing-grid {
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .foto-img {
+    height: 150px;
+    padding-top: 0;
+  }
+
+  .textAboutMe {
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-size: 1em;
+  }
+
+  .frontEnd {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .landing-grid {
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .foto-img {
+    height: 10em;
+    padding-top: 0;
+  }
+
+  .textAboutMe {
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-size: 1em;
+  }
+
+  .frontEnd {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .landing-grid {
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .foto-img {
+    height: 15em;
+    padding-top: 4em;
+  }
+
+  .textAboutMe {
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+
+  .frontEnd {
+    font-size: 3em;
+  }
+
+  .tech {
+    font-size: 1.8em;
+  }
+
+  
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1024px) {
+  .landing-grid {
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .foto-img {
+    height: 15em;
+    width: 15em;
+    padding-top: 2em;
+  }
+
+  .textAboutMe {
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-top: 1em;
+    font-size: 2em;
+  }
+
+  .frontEnd {
+    font-size: 3em;
+  }
+
+  .tech {
+    font-size: 1.8em;
+  }
+
+  
+}

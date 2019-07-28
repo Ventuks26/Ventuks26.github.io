@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
+import SocialBox from "./SocialBox";
+import '../style/StyleContact.css';
 
 class Contact extends Component {
   render() {
@@ -12,9 +14,27 @@ class Contact extends Component {
               src="https://i.postimg.cc/NjfCrd0s/ventur.jpg"
               alt="foto"
               className="imgContat"
+              style={{
+                width: "15em",
+                height: "15em"
+              }}
             />
           </Cell>
           <Cell className="contact-box" col={6}>
+            <p
+              style={{
+                width: "75%",
+                margin: "auto",
+                paddingTop: "2em",
+                fontFamily: "Lato",
+                color: "#2d2928"
+              }}
+            >
+              Me gustan los retos, desafiárdome a mi misma para aprender y
+              crecer.
+              
+
+            </p>
             <p
               style={{
                 width: "75%",
@@ -24,34 +44,17 @@ class Contact extends Component {
                 color: "#2d2928"
               }}
             >
-              Me gustan los retos, desafiárdome a mi misma para aprender y
-              crecer.{" "}
+              Me considero una persona empatica, perseverante, resolutiva, que ha desarrollado
+               su habilidad de autoaprendizaje, 
+              capaz de adaptarse a cualquier reto o circuntancia.
             </p>
-            {/* <h4>
-              Si estás interesado en trabajar juntos, no dudes en escribirme.
-            </h4> */}
           </Cell>
+          
         </Grid>
 
-        <div className="contact-list">
-          <List>
-            <ListItem>
-              <ListItemContent className="social-icons">
-              <a className="contactMail" style={{ color: "#151415" }}>
-                <i class="fas fa-envelope fa-lg" /> mateventura5@gmail.com
-              </a>
-                <a href="https://www.linkedin.com/in/venturagarc%C3%ADa/">
-                  <i
-                    class="fab fa-linkedin fa-3x"
-                    style={{ color: "#151415" }}
-                  />
-                </a>
-                <a href="https://github.com/Ventuks26">
-                  <i class="fab fa-github fa-3x" style={{ color: "#151415" }} />
-                </a>
-              </ListItemContent>
-            </ListItem>
-          </List>
+        <div>
+          
+          <SocialBox />
         </div>
       </div>
     );

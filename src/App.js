@@ -20,7 +20,7 @@ class App extends Component {
                 style={{
                   textDecoration: "none",
                   color: "#FBECEA",
-                  fontFamily: "Playfair Display"
+                  fontFamily: "Lato"
                 }}
                 to="/"
               >
@@ -31,7 +31,7 @@ class App extends Component {
           >
             <Navigation>
               <Link to="/">Acerca de mí</Link>
-              <Link to="/skills">Habilidades</Link>
+              <Link to="/skills">Habilidades Técnicas</Link>
               <Link to="/projects">Proyectos</Link>
               <Link to="/contact">Contacto</Link>
             </Navigation>
@@ -43,7 +43,8 @@ class App extends Component {
                 style={{
                   textDecoration: "none",
                   color: "#EAAAA0",
-                  fontFamily: "Italiana"
+                  fontFamily: "Lato",
+                 
                 }}
                 to="/"
               >
