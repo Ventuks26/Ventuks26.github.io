@@ -14,7 +14,7 @@ class Landingpage extends Component {
               alt="foto"
               className="foto-img"
               />
-             
+  
 
             <div className="banner-text">
             <h1 className="frontEnd">Front-End Developer</h1>

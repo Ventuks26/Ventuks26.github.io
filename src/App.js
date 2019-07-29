@@ -30,6 +30,9 @@ class App extends Component {
             scroll
           >
             <Navigation>
+            <Link to="../Ventura-Garcia.pdf"  target="_blank" download>
+                Descargar Mi CV
+                </Link>
               <Link to="/">Acerca de mí</Link>
               <Link to="/skills">Habilidades Técnicas</Link>
               <Link to="/projects">Proyectos</Link>
@@ -43,8 +46,7 @@ class App extends Component {
                 style={{
                   textDecoration: "none",
                   color: "#EAAAA0",
-                  fontFamily: "Lato",
-                 
+                  fontFamily: "Lato"
                 }}
                 to="/"
               >
@@ -53,6 +55,9 @@ class App extends Component {
             }
           >
             <Navigation>
+            <Link to="../Ventura-Garcia.pdf"  target="_blank" download>
+                Descargar Mi CV
+                </Link>
               <Link to="/" onClick={() => this.hideToggle()}>
                 Acerca de mí
               </Link>
