@@ -29,7 +29,7 @@ class Landingpage extends Component {
 
             <hr/>
 
-          <p className="tech">HTML/CSS | Bootstrap | JavaScript | React | Github/git | NodeJS | Firebase  </p>
+          <p className="tech">HTML5/CSS3 | Bootstrap | JavaScript | React | Github/git | NodeJS | Firebase  </p>
 
         {/* <div className="social-links">
 

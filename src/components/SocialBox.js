@@ -11,7 +11,7 @@ class SocialBox extends Component {
               <a
                 href="mailto:mateventura5@gmail.com"
                 className="contactMail"
-                style={{ color: "#fbecea", fontSize: "1.5em" }}
+                style={{ color: "#2d2928", fontSize: "1.5em" }}
               >
                 <i class="fas fa-envelope fa-lg" />
               </a>
@@ -22,7 +22,7 @@ class SocialBox extends Component {
               <a href="https://www.linkedin.com/in/venturagarc%C3%ADa/">
                 <i
                   class="fab fa-linkedin fa-3x"
-                  style={{ color: "#fbecea", fontSize: "2em" }}
+                  style={{ color: "#2d2928", fontSize: "2em" }}
                 />
               </a>
             </div>
@@ -32,7 +32,7 @@ class SocialBox extends Component {
               <a href="https://github.com/Ventuks26">
                 <i
                   class="fab fa-github fa-3x"
-                  style={{ color: "#fbecea", fontSize: "2em" }}
+                  style={{ color: "#2d2928", fontSize: "2em" }}
                 />
               </a>
             </div>

@@ -32,7 +32,6 @@
 }
 
 .contact-list {
-  background-color: #2d2928;
   display: flex;
   height: 4em;
   margin-top: 8%;
@@ -41,7 +40,7 @@
 }
 
 .mail {
-  margin-top: 0.2em;
+  margin-top: 0.3em;
 }
 
 @media only screen and (max-width: 320px) {
@@ -77,7 +76,6 @@
   }
 
   .contact-list {
-    background-color: #2d2928;
     display: flex;
     height: 4em;
     margin-top: 60%;
@@ -86,7 +84,7 @@
   }
 
   .mail {
-    margin-top: 0.2em;
+    margin-top: 0.3em;
   }
 }
 @media only screen and (max-width: 480px) and (min-width: 320px) {
@@ -122,7 +120,6 @@
   }
 
   .contact-list {
-    background-color: #2d2928;
     display: flex;
     height: 4em;
     margin-top: 40%;
@@ -131,7 +128,7 @@
   }
 
   .mail {
-    margin-top: 0.2em;
+    margin-top: 0.3em;
   }
 }
 @media only screen and (max-width: 480px) and (min-width: 320px) {
@@ -167,7 +164,6 @@
   }
 
   .contact-list {
-    background-color: #2d2928;
     display: flex;
     height: 4em;
     margin-top: 50%;
@@ -212,7 +208,6 @@
   }
 
   .contact-list {
-    background-color: #2d2928;
     display: flex;
     height: 4em;
     margin-top: 10%;
@@ -257,7 +252,6 @@
   }
 
   .contact-list {
-    background-color: #2d2928;
     display: flex;
     height: 4em;
     margin-top: 10%;
@@ -266,7 +260,7 @@
   }
 
   .mail {
-    margin-top: 0.2em;
+    margin-top: 0.3em;
   }
 }
 @media only screen and (max-width: 480px) and (min-width: 320px) {
@@ -321,7 +315,6 @@
   }
 
   .contact-list {
-    background-color: #2d2928;
     display: flex;
     height: 4em;
     margin-top: 11%;
@@ -330,6 +323,6 @@
   }
 
   .mail {
-    margin-top: 0.2em;
+    margin-top: 0.3em;
   }
 }

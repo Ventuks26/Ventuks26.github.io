@@ -48,13 +48,14 @@ class Contact extends Component {
                su habilidad de autoaprendizaje, 
               capaz de adaptarse a cualquier reto o circuntancia.
             </p>
+            <SocialBox />
           </Cell>
           
         </Grid>
 
         <div>
           
-          <SocialBox />
+         
         </div>
       </div>
     );

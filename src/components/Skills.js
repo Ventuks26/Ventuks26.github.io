@@ -16,30 +16,30 @@ class Skills extends Component {
                 <div className=" technicalBox">
                   <div className="row center-xs">
                     <div class="col s6 boxTech">
-                    <i class="fab fa-js fa-9x iconTechnical"></i>
+                    <i class="fab fa-js fa-9x iconTechnical" title="JavaScript ES6"></i>
                     </div>
                     <div class="col s6">
-                    <i class="fab fa-html5 fa-9x iconTechnical"></i>
+                    <i class="fab fa-html5 fa-9x iconTechnical" title="HTML5"></i>
                     </div>
                   </div>
     
     
                   <div className="row center-xs">
                     <div class="col s6">
-                    <i class="fab fa-css3-alt fa-9x iconTechnical"></i>
+                    <i class="fab fa-css3-alt fa-9x iconTechnical" title="CSS3"></i>
                     </div>
                     <div class="col s6">
-                    <i class="fab fa-github fa-9x iconTechnical"></i>
+                    <i class="fab fa-github fa-9x iconTechnical" title="Github"></i>
                     </div>
                   </div>
                 </div>
     
                 <div className="row center-xs">
                   <div class="col s6">
-                  <i class="fab fa-react fa-9x iconTechnical"></i>
+                  <i class="fab fa-react fa-9x iconTechnical" title="React"></i>
                   </div>
                   <div class="col s6">
-                  <i class="fab fa-bootstrap fa-9x iconTechnical"></i>
+                  <i class="fab fa-bootstrap fa-9x iconTechnical" title="Bootstrap"></i>
                   </div>
                 </div>
 
