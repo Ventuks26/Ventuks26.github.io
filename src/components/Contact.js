@@ -30,7 +30,7 @@ class Contact extends Component {
                 color: "#2d2928"
               }}
             >
-              Me gustan los retos, desafiárdome a mi misma para aprender y
+              Me gustan los retos, desafiándome a mi misma para aprender y
               crecer.
               
 
@@ -46,7 +46,7 @@ class Contact extends Component {
             >
               Me considero una persona empatica, perseverante, resolutiva, que ha desarrollado
                su habilidad de autoaprendizaje, 
-              capaz de adaptarse a cualquier reto o circuntancia.
+              capaz de adaptarse a cualquier reto o circunstancia.
             </p>
             <SocialBox />
           </Cell>

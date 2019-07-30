@@ -10,7 +10,7 @@ import {
   CardActions,
   Button,
   CardMenu,
-  IconButton
+ 
 } from "react-mdl";
 
 class Projects extends Component {
@@ -37,15 +37,15 @@ class Projects extends Component {
                   "url(https://i.postimg.cc/DwkQNsbz/Get-the-Best-Celebrity-Looks.png) center / cover"
               }}
             >
-              React Project #1
+              
             </CardTitle>
-            <CardText>hola este es mi proyecto</CardText>
+            <CardText style={{ fontWeight:"blond", color:"#2d2928"}}>hola este es mi proyecto</CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "black" }}>
-              <IconButton name="share" />
+              
             </CardMenu>
           </Card>
           {/* Project 2 */}
@@ -59,18 +59,19 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://i.postimg.cc/DwkQNsbz/Get-the-Best-Celebrity-Looks.png) center / cover"
+                  "url(https://i.postimg.cc/fypCy0JZ/tic-tac-toe.png) center / cover"
               }}
             >
-              React Project #2
+             
             </CardTitle>
-            <CardText>hola este es mi proyecto </CardText>
+            <CardText style={{ fontWeight:"blond", color:"#2d2928"}}>Tic-Tac-Toe
+              </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button href="https://github.com/Ventuks26/GDL002-mobile-game/tree/Develop"  colored>GitHub</Button>
+              <Button href="https://exp.host/@ventura5/expo-template-blank"  colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "black" }}>
-              <IconButton name="share" />
+            
             </CardMenu>
           </Card>
           {/* Project 3 */}
@@ -84,18 +85,18 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://i.postimg.cc/DwkQNsbz/Get-the-Best-Celebrity-Looks.png) center / cover"
+                  "url(https://i.postimg.cc/Vv2V0hdJ/Beats-box.png) center / cover"
               }}
             >
-              React Project #3
+              
             </CardTitle>
-            <CardText>hola este es mi proyecto </CardText>
+            <CardText style={{ fontWeight:"blond", color:"#2d2928"}}>Beats-Box</CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button href="https://github.com/Ventuks26/Beats-Box" colored>GitHub</Button>
+              <Button  href="https://ventuks26.github.io/Beats-Box/" colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "black" }}>
-              <IconButton name="share" />
+              
             </CardMenu>
           </Card>
         </div>

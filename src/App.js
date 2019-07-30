@@ -62,7 +62,7 @@ class App extends Component {
                 Acerca de mí
               </Link>
               <Link to="/skills" onClick={() => this.hideToggle()}>
-                Habilidades
+                Habilidades Técnicas
               </Link>
               <Link to="/projects" onClick={() => this.hideToggle()}>
                 Proyectos
