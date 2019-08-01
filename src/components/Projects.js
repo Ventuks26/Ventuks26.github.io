@@ -34,15 +34,15 @@ class Projects extends Component {
                 color: "#black",
                 height: "176px",
                 background:
-                  "url(https://i.postimg.cc/DwkQNsbz/Get-the-Best-Celebrity-Looks.png) center / cover"
+                  "url(https://i.postimg.cc/44qVDrYp/burger-queen.png) center / cover"
               }}
             >
               
             </CardTitle>
-            <CardText style={{ fontWeight:"blond", color:"#2d2928"}}>hola este es mi proyecto</CardText>
+            <CardText style={{ fontWeight:"blond", color:"#2d2928"}}>Burger Queen</CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button href="https://github.com/Ventuks26/GDL002-burger-queen" colored>GitHub</Button>
+              <Button href="https://ventuks26.github.io/GDL002-burger-queen/" colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "black" }}>
               
